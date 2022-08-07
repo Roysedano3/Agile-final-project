@@ -1,0 +1,15 @@
+**As a** [service provider]  
+ **I need** [the service to be deployed to the cloud]  
+ **So that** [I can scale capacity with user demand]  
+   
+ ### Details and Assumptions
+ * Will deploy in IBM cloud 
+*Deploy as a cloud foundry app
+   
+ ### Acceptance Criteria  
+   
+ ```gherkin
+ Given I have deployed to the cloud
+ When a customer comes to our URL
+ Then our service will be available
+ ```
